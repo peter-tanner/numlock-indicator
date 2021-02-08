@@ -1,5 +1,7 @@
 # `numlock-indicator`
 
+**\* Important: You'll need to manually use taskbar settings to pin the taskbar icon so it's always visible!**
+
 This powershell script adds a small indicator to the system tray to indicate when the numlock is enabled.
 
 Copy files to some directory and run `powershell systray.ps1`. You can also run `start.sh` to ensure that one copy of the script is always active.
