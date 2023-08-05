@@ -1,6 +1,6 @@
 [System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms') | Out-Null
-$ICON_ON  = [System.Drawing.Icon]::FromHandle(([System.Drawing.Bitmap]::FromFile($(Join-Path $pwd '\icon_on.png'))).GetHicon()) # Convert my png (bitmap) to an icon
-$ICON_OFF = [System.Drawing.Icon]::FromHandle(([System.Drawing.Bitmap]::FromFile($(Join-Path $pwd '\icon_off.png'))).GetHicon())
+$ICON_ON  = [System.Drawing.Icon]::FromHandle(([System.Drawing.Bitmap]::FromFile($(Join-Path $PSScriptRoot '\icon_on.png'))).GetHicon()) # Convert my png (bitmap) to an icon
+$ICON_OFF = [System.Drawing.Icon]::FromHandle(([System.Drawing.Bitmap]::FromFile($(Join-Path $PSScriptRoot '\icon_off.png'))).GetHicon())
 # $ICON_ON = [System.Drawing.Icon]::ExtractAssociatedIcon() # Feel free to use a system icon
 # $ICON_OFF = [System.Drawing.Icon]::ExtractAssociatedIcon()
  
